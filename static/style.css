@@ -458,7 +458,7 @@ h3.logo a.navbar-brand i {
 	text-decoration: none;
 	height: 61px;
 	width: 38px;
-	background: transparent url(../images/arrows.png) no-repeat left 50%;
+	background: transparent url(/static/arrows.png) no-repeat left 50%;
 	margin-top: -45px;
 }
 
@@ -504,7 +504,7 @@ h3.logo a.navbar-brand i {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	background: url(../images/arrows.png) no-repeat left 50%;
+	background: url(/static/arrows.png) no-repeat left 50%;
 	width: 38px;
 }
 
@@ -569,7 +569,7 @@ h3.logo a.navbar-brand i {
 .banner-img.one,
 .banner-img.two,
 .banner-img.three {
-	background: url({{MEDIA_URL}}banners/first.jpg) no-repeat 0px 0px;
+	background: url(/static/banners/first.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -579,16 +579,16 @@ h3.logo a.navbar-brand i {
 }
 
 .banner-img.one {
-	background: url({{MEDIA_URL}}banners/second.jpg) no-repeat 0px 0px;
+	background: url(/static/banners/second.jpg) no-repeat 0px 0px;
 
 }
 
 .banner-img.two {
-	background: url({{MEDIA_URL}}banners/third.jpg) no-repeat 0px 0px;
+	background: url(/static/banners/third.jpg) no-repeat 0px 0px;
 }
 
 .banner-img.tthree {
-	background: url({{MEDIA_URL}}banners/fourth.jpg) no-repeat 0px 0px;
+	background: url(/static/banners/fourth.jpg) no-repeat 0px 0px;
 }
 
 .banner-info {
@@ -885,7 +885,7 @@ p.card-text {
 /*-- /centers --*/
 
 .areas {
-	background: #171819 url(../images/banner5.png) no-repeat;
+	background: #171819 url(/static/banner5.png) no-repeat;
 	padding: 7em 0;
 }
 
@@ -910,7 +910,7 @@ p.card-text {
 }
 
 .banner-inner {
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(/static/banner1.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -1463,7 +1463,7 @@ footer {
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/top_up.png) no-repeat 0px 0px;
+	background: url(/static/top_up.png) no-repeat 0px 0px;
 }
 
 /*--// copyright-- */
@@ -2013,3 +2013,60 @@ footer {
 @media(max-width:320px) {}
 
 /*--//responsive--*/
+
+
+
+/* FAQ Styles */
+/*
+.faq {
+  padding: 0; 
+  bottom: 10%; }
+  .faq .faq-cont {
+    background: #f4fc53;
+    padding: 15% 70px;
+    height: 100vh; }
+    .faq .faq-cont .faq-heading h3 {
+      font-size: 29px;
+      color: #fff;
+      font-size: 33px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 700;
+      margin-bottom: 30px; }
+      @media (max-width: 991px) {
+        .faq .faq-cont .faq-heading h3 {
+          font-size: 20px; } }
+    .faq .faq-cont .card {
+      border: 0;
+      background: transparent;
+      color: #fff; }
+      .faq .faq-cont .card .card-header {
+        background: #f7dc09;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+        .faq .faq-cont .card .card-header h5 {
+          box-shadow: none;
+          font-weight: 700;
+          font-size: 20px;
+          text-decoration: none; }
+          .faq .faq-cont .card .card-header h5 div {
+            cursor: pointer;
+            text-align: left;
+            color: #fff;
+            width: 100%;
+            background: transparent;
+            border: none; }
+      .faq .faq-cont .card .card-body {
+        font-size: 16px;
+        color: #fff; }
+      .faq .faq-cont .card .panel-body {
+        margin-bottom: 15px;
+        color: #fff; }
+    @media (max-width: 991px) {
+      .faq .faq-cont {
+        padding: 5% 5px;
+        height: 100%; } }
+  .faq .bg-faq-img {
+    background-image: url("../img/bg-faq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 250px; }*/

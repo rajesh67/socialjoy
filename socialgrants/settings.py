@@ -132,7 +132,7 @@ STATICFILES_DIRS=[
     os.path.join(BASE_DIR, "templates/web/css/"),
     os.path.join(BASE_DIR, "templates/web/js/"),
     os.path.join(BASE_DIR, "templates/web/images/"),
-    os.path.join(BASE_DIR, "templates/web/webfonts/"),
+    
 ]
 
 MEDIA_URL = '/media/'

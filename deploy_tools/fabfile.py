@@ -44,6 +44,11 @@ def _update_database():
     run('./virtualenv/bin/python manage.py migrate --noinput')
 
 
-#cat ./deploy_tools/nginx.template.conf | sed "s/DOMAIN/www.impactocean.com/g" | sudo tee /etc/nginx/sites-available/www.impactocean.com
-#sudo ln -s /etc/nginx/sites-available/www.impactocean.com /etc/nginx/sites-enabled/www.impactocean.com
-#cat ./deploy_tools/gunicorn-systemd.template.service | sed "s/DOMAIN/www.impactocean.com/g" | sudo tee /etc/systemd/system/gunicorn-www.impactocean.com.service
+#cat ./deploy_tools/nginx.template.conf | sed "s/DOMAIN/www.yogdaan.org.in/g" | sudo tee /etc/nginx/sites-available/www.yogdaan.org.in
+#sudo ln -s /etc/nginx/sites-available/www.yogdaan.org.in /etc/nginx/sites-enabled/www.yogdaan.org.in
+#cat ./deploy_tools/gunicorn-systemd.template.service | sed "s/DOMAIN/www.yogdaan.org.in/g" | sudo tee /etc/systemd/system/gunicorn-www.yogdaan.org.in.service
+
+#sudo systemctl daemon-reload
+#elspeth@server:$ sudo systemctl reload nginx
+#elspeth@server:$ sudo systemctl enable gunicorn-www.yogdaan.org.in
+#elspeth@server:$ sudo systemctl start gunicorn-www.yogdaan.org.in
